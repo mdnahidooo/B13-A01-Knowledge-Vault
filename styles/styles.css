@@ -309,3 +309,18 @@
     background-color: #F95555;
     transition-duration: 0.5s;
 }
+
+.nav-bar li:hover {
+    background-color: #30B868;
+}
+
+.transparent-btn {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+hr {
+    border: 1px solid rgba(229, 231, 235, 1);
+    opacity: 0.2;
+
+}
