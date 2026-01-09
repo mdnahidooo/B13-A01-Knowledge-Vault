@@ -90,6 +90,7 @@
     text-align: center;
     margin: 0 auto;
     margin-bottom: 16px;
+    color: white;
 }
 
 .green-heading {
@@ -202,16 +203,109 @@
     margin-bottom: 40px;
 }
 
-ul {
+.solution-content ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-ul li {
+.solution-content ul li {
     margin: 0;
     padding: 0;
     background: url('../assets/CheckCircle.png') no-repeat 0 0;
     padding-left: 40px;
     min-height: 40px;
+}
+
+#early-access {
+    max-width: 1600px;
+}
+
+#early-access .early-access-container {
+    max-width: 1360px;
+    margin: 0 120px 120px 120px;
+    padding: 80px 40px;
+    border-radius: 12px;
+    background: rgba(247, 246, 242, 1);
+
+}
+
+#early-access .early-access-container .early-access-notice {
+    text-align: center;
+    margin: 16px 0;
+    color: #627382;
+}
+
+
+/* footer css */
+#footer {
+    max-width: 1600px;
+    /* height: 348px; */
+    /* background-color: #001931; */
+    /* background-color: aquamarine; */
+    background: var(--Style, rgba(0, 25, 49, 1));
+    padding: 120px 120px 30px 120px;
+}
+
+#footer .footer-container {
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#footer .footer-container .footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.footer-info .footer-logo img {
+    max-width: 140px;
+    height: 60px;
+    gap: 16px;
+}
+
+.social p {
+    color: #FFFFFF;
+    max-width: 113px;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: start;
+    margin-bottom: 12px;
+}
+
+.social .icon img {
+    background-color: white;
+    max-width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.copyrights {
+    margin-top: 30px;
+}
+
+.copyrights p {
+    color: #fafafa;
+}
+
+/* extra btn work */
+.btn-content img {
+    text-align: center;
+    vertical-align: middle;
+    width: 18px;
+    height: 16px;
+    font-weight: 900;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+.note-card:hover {
+    /* border: 1px solid #F95555; */
+    background-color: #F95555;
+    transition-duration: 0.5s;
 }
